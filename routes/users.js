@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const bcrypt = require("bcrypt");
+cconst bcrypt = require('bcryptjs');
 
 let users = []; // тимчасове зберігання користувачів
 
